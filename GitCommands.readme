@@ -32,4 +32,15 @@ git remote add origin url
 
 git push -u origin branch_name
 
-------------------------------
+--------------------------------
+gitignore filecontent
+---------------------------------
+bin/
+obj/
+.vs/
+
+#vscode debug
+.vscode
+
+#properties
+properties/
