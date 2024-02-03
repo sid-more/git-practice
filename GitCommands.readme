@@ -1,0 +1,35 @@
+ git config --global user.email "siddheshmore42@example.com"
+  git config --global user.name "sid-more"
+
+
+echo "# NodePractices" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sid-more/NodePractices.git
+git push -u origin main
+
+git remote add origin https://github.com/sid-more/NodePractices.git
+git branch -M main
+git push -u origin main
+
+vi feature.py 
+esc -->:w -->  :q
+
+
+
+ssh-keygen -t ed25519 -C "siddheshmore42@example.com"
+
+------------------------------
+git checkout -b "branch_name"
+
+git add . 
+
+git commit -m "messege"
+
+git remote add origin url
+
+git push -u origin branch_name
+
+------------------------------
